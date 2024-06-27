@@ -2,11 +2,11 @@
 <h4 style="text-align: center; color: white">ARMANDO LEONEL YAÑEZ AREVALO | PROGRAMACION 2</h4>
 
 <div style="text-align: justify;">
-En este primer programa lo que se nos muestra en la pantalla al ejecutarlo  es una pantalla negra con una 
-figura dentro de ella, para esto se utilizo el siguiente codigo el cual sera explicado parte por parte.
+En este primer programa, lo que se muestra en la pantalla al ejecutarlo es una pantalla negra con 
+una figura dentro de ella. Para esto, se utilizó el siguiente código, el cual será explicado parte por parte.
 
-Lo primero que se debe hacer es incluir la librería SFML y, específicamente, el paquete "Graphics".
-Este paquete incluye funciones con gráficos que podremos usar, como la creación de pantallas.
+Lo primero que se debe hacer es incluir la librería SFML y, específicamente, el paquete "Graphics". Este paquete 
+incluye funciones con gráficos que podremos usar, como la creación de pantallas.
 </div>
 
 ```c++
@@ -19,17 +19,19 @@ int main() {
 sf::RenderWindow window(sf::VideoMode(800, 600), "SFML Window");
 ```
 <div style="text-align: justify;">
-En esta ultima línea creamos la pantalla en negro. Para esto, es importante especificar 
-de dónde viene esa variable que queremos utilizar. Por esa razón, se utiliza 
-sf::RenderWindow. Esta clase hereda de dos clases, las cuales son Window y RenderTarget.
-Esto significa que RenderWindow nos permitirá la configuración de la ventana y de 
-lo que hay dentro de ella. 
 
-Despues tenemos "sf::VideoMode", esta clase define el modo video de una ventana,
-para esta parte tambien se tendran que rellenar los parentesis con 2 pareametros 
-los cuales son ancho y alto de la pantalla, en este caso 800 y 600 pixeles.
+Aquí tienes el texto corregido con los errores ortográficos resueltos:
 
-Ahora tenemos el siguiente bloque de codigo:
+En esta última línea creamos la ventana. Para esto, es importante especificar 
+de dónde viene esa variable que queremos utilizar. Por esa razón, se utiliza sf::RenderWindow. 
+Esta clase hereda de dos clases, las cuales son Window y RenderTarget. Esto significa que RenderWindow 
+nos permitirá la configuración de la ventana y de lo que hay dentro de ella.
+
+Después tenemos sf::VideoMode, esta clase define el modo video de una ventana. Para esta parte, también
+se tendrán que rellenar los paréntesis con dos parámetros, los cuales son el ancho y el alto de la pantalla, en 
+este caso, 800 y 600 píxeles.
+
+Ahora tenemos el siguiente bloque de código:
 </div>
 
 ```c++
@@ -121,3 +123,6 @@ se está estableciendo desde el inicio. Prácticamente provoca que esta pantalla
 no se eliminen, por lo cual esta parte final es sumamente importante.
 
 Para terminar, usamos return 0 para indicar el final del programa.
+
+
+</div>
